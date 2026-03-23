@@ -1,0 +1,13 @@
+id: "tm-014-realtime-websockets"
+project: "task-manager"
+type: "feature"
+phase: "implementation"
+difficulty: "medium"
+languages: ["typescript"]
+
+title: "Feature: real-time updates with WebSockets"
+description: |
+  Implement WebSocket-based real-time task updates (presence, live reorder).
+
+acceptance_criteria:
+  - "Real-time updates reflected on connected clients"

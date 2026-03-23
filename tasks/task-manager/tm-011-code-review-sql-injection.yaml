@@ -1,0 +1,13 @@
+id: "tm-011-code-review-sql-injection"
+project: "task-manager"
+type: "review"
+phase: "review"
+difficulty: "easy"
+languages: ["sql", "typescript"]
+
+title: "Code review: detect SQL injection"
+description: |
+  Review code to find possible SQL injection vulnerabilities and propose fixes.
+
+acceptance_criteria:
+  - "All unsafe queries replaced with parameterized queries"

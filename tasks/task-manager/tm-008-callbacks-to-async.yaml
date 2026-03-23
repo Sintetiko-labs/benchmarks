@@ -1,0 +1,13 @@
+id: "tm-008-callbacks-to-async"
+project: "task-manager"
+type: "refactor"
+phase: "implementation"
+difficulty: "medium"
+languages: ["typescript"]
+
+title: "Refactor: convert callbacks to async/await"
+description: |
+  Replace legacy callback-style code with async/await and Promises where appropriate.
+
+acceptance_criteria:
+  - "No callback-style functions remain in core services"

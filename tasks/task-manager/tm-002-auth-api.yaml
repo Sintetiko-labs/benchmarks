@@ -1,0 +1,35 @@
+id: "tm-002-auth-api"
+project: "task-manager"
+type: "feature"
+phase: "implementation"
+difficulty: "medium"
+languages: ["typescript", "sql"]
+
+title: "Implement JWT Authentication API"
+description: |
+  Create authentication endpoints: register, login, refresh, me. Use bcrypt and JWTs.
+
+context_files:
+  - "src/index.ts"
+
+expected_outputs:
+  - "src/routes/auth.ts"
+  - "src/services/auth.service.ts"
+
+validation:
+  tests:
+    - "npm run test -- --filter auth"
+  lint: "npm run lint"
+  typecheck: "npm run typecheck"
+
+acceptance_criteria:
+  - "Register returns JWT"
+  - "Login validates credentials"
+
+scoring:
+  max_points: 100
+  breakdown:
+    correctness: 40
+    completeness: 25
+    code_quality: 20
+    security: 15

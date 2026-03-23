@@ -1,0 +1,22 @@
+id: "tm-003-crud-tasks"
+project: "task-manager"
+type: "feature"
+phase: "implementation"
+difficulty: "medium"
+languages: ["typescript"]
+
+title: "CRUD for tasks"
+description: |
+  Implement create/read/update/delete endpoints for tasks, with proper validation and pagination.
+
+expected_outputs:
+  - "src/routes/tasks.ts"
+  - "src/services/task.service.ts"
+
+validation:
+  tests:
+    - "npm run test -- --filter tasks"
+
+acceptance_criteria:
+  - "CRUD works via API"
+  - "Pagination present"

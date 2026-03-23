@@ -1,0 +1,13 @@
+id: "tm-013-notifications-planning"
+project: "task-manager"
+type: "feature"
+phase: "planning"
+difficulty: "easy"
+languages: ["typescript"]
+
+title: "Planning: design notifications API"
+description: |
+  Design endpoints and data model for notifications (email, in-app) and decide retry/backoff strategy.
+
+acceptance_criteria:
+  - "Design doc created"

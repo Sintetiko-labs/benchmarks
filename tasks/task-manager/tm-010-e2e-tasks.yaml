@@ -1,0 +1,17 @@
+id: "tm-010-e2e-tasks"
+project: "task-manager"
+type: "test"
+phase: "testing"
+difficulty: "medium"
+languages: ["typescript"]
+
+title: "E2E tests for task CRUD"
+description: |
+  Implement Playwright or Cypress E2E tests that validate task creation, update and deletion flows.
+
+validation:
+  tests:
+    - "npm run e2e"
+
+acceptance_criteria:
+  - "E2E tests pass on CI"

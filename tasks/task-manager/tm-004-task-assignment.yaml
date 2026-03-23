@@ -1,0 +1,21 @@
+id: "tm-004-task-assignment"
+project: "task-manager"
+type: "feature"
+phase: "implementation"
+difficulty: "medium"
+languages: ["typescript"]
+
+title: "Task assignment + collaboration"
+description: |
+  Implement assignment of tasks to users and basic collaboration features (comments, mentions).
+
+expected_outputs:
+  - "src/services/assignment.service.ts"
+
+validation:
+  tests:
+    - "npm run test -- --filter assignment"
+
+acceptance_criteria:
+  - "Tasks can be assigned to users"
+  - "Comments stored"

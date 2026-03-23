@@ -1,0 +1,13 @@
+id: "tm-007-refactor-middleware"
+project: "task-manager"
+type: "refactor"
+phase: "implementation"
+difficulty: "easy"
+languages: ["typescript"]
+
+title: "Refactor: extract middleware pipeline"
+description: |
+  Extract common middleware into a pipeline module and improve composability.
+
+acceptance_criteria:
+  - "Middleware is reusable and covered by tests"

@@ -1,0 +1,13 @@
+id: "tm-012-code-review-memory-leak"
+project: "task-manager"
+type: "review"
+phase: "review"
+difficulty: "medium"
+languages: ["typescript"]
+
+title: "Code review: detect memory leak"
+description: |
+  Identify and fix potential memory leaks in long-running processes.
+
+acceptance_criteria:
+  - "Memory usage remains stable under load"

@@ -1,0 +1,17 @@
+id: "tm-009-auth-tests"
+project: "task-manager"
+type: "test"
+phase: "testing"
+difficulty: "easy"
+languages: ["typescript"]
+
+title: "Tests: unit tests for auth service"
+description: |
+  Add unit tests covering authentication service logic (register, login, token refresh).
+
+validation:
+  tests:
+    - "npm run test -- --filter auth"
+
+acceptance_criteria:
+  - "Auth service tests pass"

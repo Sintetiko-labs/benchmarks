@@ -1,0 +1,17 @@
+id: "tm-006-token-refresh-loop"
+project: "task-manager"
+type: "bugfix"
+phase: "debugging"
+difficulty: "easy"
+languages: ["typescript"]
+
+title: "Bug: token refresh loop"
+description: |
+  Fix issue where refresh tokens cause an infinite redirect/refresh loop in the frontend.
+
+validation:
+  tests:
+    - "manual: reproduce flow"
+
+acceptance_criteria:
+  - "No infinite refresh loop"

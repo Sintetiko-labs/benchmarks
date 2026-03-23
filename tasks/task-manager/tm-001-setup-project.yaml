@@ -1,0 +1,29 @@
+id: "tm-001-setup-project"
+project: "task-manager"
+type: "feature"
+phase: "implementation"
+difficulty: "easy"
+languages: ["typescript"]
+
+title: "Project scaffolding (Next.js + Prisma + tRPC)"
+description: |
+  Create a baseline scaffold for the Task Manager project with Next.js, Prisma, and tRPC. Include basic package.json, TypeScript config and a README.
+
+expected_outputs:
+  - "package.json"
+  - "tsconfig.json"
+  - "README.md"
+
+validation:
+  build: "echo 'validate scaffold'"
+
+acceptance_criteria:
+  - "Repository builds"
+  - "README explains how to run dev"
+
+scoring:
+  max_points: 20
+  breakdown:
+    correctness: 10
+    completeness: 6
+    code_quality: 4

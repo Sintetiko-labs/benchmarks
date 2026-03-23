@@ -1,0 +1,17 @@
+id: "tm-005-reorder-bug"
+project: "task-manager"
+type: "bugfix"
+phase: "debugging"
+difficulty: "medium"
+languages: ["typescript"]
+
+title: "Bug: race condition in reordering"
+description: |
+  Fix a race condition where simultaneous reorder requests cause inconsistent ordering.
+
+validation:
+  tests:
+    - "npm run test -- --filter reorder"
+
+acceptance_criteria:
+  - "Concurrent reorders result in deterministic ordering"

@@ -1,0 +1,17 @@
+id: "tm-015-performance-nplus1"
+project: "task-manager"
+type: "performance"
+phase: "implementation"
+difficulty: "hard"
+languages: ["typescript", "sql"]
+
+title: "Performance: optimize N+1 queries"
+description: |
+  Identify N+1 queries and refactor to batch queries or use joins to improve performance.
+
+validation:
+  tests:
+    - "benchmark: measure query count"
+
+acceptance_criteria:
+  - "Reduced query count during list operations"

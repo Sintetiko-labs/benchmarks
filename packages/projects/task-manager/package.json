@@ -1,0 +1,9 @@
+{
+  "name": "@benchmarks/task-manager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo \"Run your dev server\"",
+    "build": "echo \"Build placeholder\""
+  }
+}
